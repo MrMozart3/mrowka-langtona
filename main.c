@@ -19,7 +19,7 @@ void WypiszInstrukcje()
  printf("0 - gora, 1 - dol, 2 - prawo, 3 - lewo\n\n");
  printf("-p <przedrostek plikow> (niewymagany)\n\n");
  printf("-z <zapelnienie czarnymi procentowo> (niewymagany)\n");
- printf("Warunki 0 <= z <= 100\n");
+ printf("Warunki 0 <= z <= 100\n\n");
  printf("-x <poczatkowa pozycja mrowki X> (niewymagany)\n");
  printf("Warunki 0 <= x < N\n\n");
  printf("-y <poczatkowa pozycja mrowki Y> (niewymagany)\n");
