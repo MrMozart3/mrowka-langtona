@@ -1,5 +1,5 @@
 #include "mrowka.h"
-//#include "genPlikow.h"
+#include "genPlikow.h"
 #include <stdlib.h>
 #include <time.h>
 
