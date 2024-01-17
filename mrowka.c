@@ -11,7 +11,7 @@ void WykonajIteracje(int** plansza, int M, int N, int I, int startY, int startX,
 	int curY = startY, curX = startX, curR = startR;
 	for (int i = 0; i < I; i++) 
 	{
-		//if(i == 0)WypiszDoPliku(plansza, M, N, curY, curX, curR, prefix, i);
+		if(i == 0)WypiszDoPliku(plansza, M, N, curY, curX, curR, prefix, i);
 		//obrot
 		if (plansza[curY][curX] == 0) {
 			curR++;
@@ -42,7 +42,7 @@ void WykonajIteracje(int** plansza, int M, int N, int I, int startY, int startX,
 		}
 		
 
-		//WypiszDoPliku(plansza, M, N, curY, curX, curR, prefix, i + 1);
+		WypiszDoPliku(plansza, M, N, curY, curX, curR, prefix, i + 1);
 	}
 
 	
