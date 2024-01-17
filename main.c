@@ -1,4 +1,4 @@
-//#include "mrowka.h"
+#include "mrowka.h"
 #include <stdio.h>
 #include <getopt.h>
 #include <locale.h>
@@ -136,6 +136,6 @@ int main(int argc, char* argv[])
 	int** plansza = malloc(M * sizeof(int*));
 	for (int i = 0; i < M; i++) plansza[i] = calloc(N, sizeof(int));
 	
-	//ZapelnijCzarnymi(plansza, M, N, fillPercent);
-	//WykonajIteracje(plansza, M, N, I, startY, startX, startR, prefix);
+	ZapelnijCzarnymi(plansza, M, N, fillPercent);
+	WykonajIteracje(plansza, M, N, I, startY, startX, startR, prefix);
 }
